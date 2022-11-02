@@ -1,8 +1,12 @@
 <h1 align="center">open-machine-learning</h1>
+<p align="center">| <a href="#ml-frem">ML Frameworks</a> | <a href="#npl-frem">NLP Frameworks</a> | <a href="#cvl">Computer Vision Libraries</a> | <a href="#mlt">ML Tools</a> | <a href="#mlh">ML Hosting</a> |
 
-<h2 align="center">ML Frameworks</h2>
+<h2 align="center" id="ml-frem">ML Frameworks</h2>
+<a href="#acme">Acme</a>  |  <a href="#AdaNet">AdaNet</a>
 
->> ## 1. Acme
+-----------------------------------------------------------
+
+>> <h2 id="acme">1. Acme</h2>
 
 Acme is a library of reinforcement learning (RL) building blocks that strives to expose simple, efficient, and readable agents. These agents first and foremost serve both as reference implementations as well as providing strong baselines for algorithm performance. However, the baseline agents exposed by Acme should also provide enough flexibility and simplicity that they can be used as a starting block for novel research. Finally, the building blocks of Acme are designed in such a way that the agents can be run at multiple scales (e.g. single-stream vs. distributed agents).
 
@@ -23,7 +27,7 @@ Acme is a library of reinforcement learning (RL) building blocks that strives to
   -----------------------------------------------------
   
   
->> ## 2. AdaNet
+>> <h2 id="AdaNet">2. AdaNet</h2> 
 
 **AdaNet** is a lightweight TensorFlow-based framework for automatically learning high-quality models with minimal expert intervention. AdaNet builds on recent AutoML efforts to be fast and flexible while providing learning guarantees. Importantly, AdaNet provides a general framework for not only learning a neural network architecture, but also for learning to ensemble to obtain even better models.
 
@@ -51,5 +55,6 @@ AdaNet has the following goals:
   <table>
 
 ---------------------------------------------------
+
 
 
