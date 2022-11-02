@@ -1,5 +1,6 @@
 <h1 align="center">open-machine-learning</h1>
-<p align="center">| <a href="#ml-frem">ML Frameworks</a> | <a href="#npl-frem">NLP Frameworks</a> | <a href="#cvl">Computer Vision Libraries</a> | <a href="#mlt">ML Tools</a> | <a href="#mlh">ML Hosting</a> |
+<p align="center">| <a href="#ml-frem">ML Frameworks</a> | <a href="#npl-frem">NLP Frameworks</a> | <a href="#cvl">Computer Vision Libraries</a> | <a href="#mlt">ML Tools</a> | <a href="#mlh">ML Hosting</a> | <a href="#res">Resources</a> |</p>
+<p align="center"> | <a href="#contributing">contributing</a> | <a href="license">license</a> | <a href=""></a> </p> 
 
 <h2 align="center" id="ml-frem">ML Frameworks</h2>
 <a href="#acme">Acme</a>  |  <a href="#AdaNet">AdaNet</a>
@@ -56,5 +57,17 @@ AdaNet has the following goals:
 
 ---------------------------------------------------
 
+<h2 align="center" id="contributing">Contributing</h2>
 
+pull requests are welcome! for major changes, please open an issue first to discuss what you would like to change.
+please make sure to update tests as appropriate.
 
+>> [Code of Conduct](./code_of_conduct.md)
+
+>> [Contributing](./contributing.md)
+
+<h2 align="center" id="license">LICENSE</h2>
+
+>> [MIT license](./LICENSE)
+
+--------------------------------
