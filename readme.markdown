@@ -1,6 +1,6 @@
 ⚠️ Developing
 
-<p align = "center"><img src="01.png" height="300px" id="OML"></p>
+<p align = "center"><img src="01.png" height="250px" id="OML"></p>
 
 <h1 align="center"  >Open Machine Learning</h1>
 <p align="center"> 
@@ -31,7 +31,7 @@
 <a href="#Blocks">Blocks</a> |
 <a href="#Caffe">Caffe</a> |
 <a href="#ConvNetJS">ConvNetJS</a> |
-<a href="#DatumBox">DatumBox</a> 
+<a href="#DatumBox">DatumBox</a>
 
 </p>
 
@@ -362,9 +362,7 @@ The Framework currently supports performing multiple Parametric & non-parametric
 <a href="#TextBlob">TextBlob</a> |
 <a href="#Thinc">Thinc</a> |
 <a href="#torchtext">torchtext</a> |
-<a href="#transformers">transformers</a> 
-
-
+<a href="#transformers">transformers</a>
 
 </p>
 
@@ -493,14 +491,15 @@ Gensim is a Python library for topic modelling, document indexing and similarity
 
 > > <h2 id="icecaps">6. icecaps</h2>
 
-Microsoft Icecaps is an open-source toolkit for building neural conversational systems. Icecaps provides an array of tools from recent conversation modeling and general NLP literature within a flexible paradigm that enables complex multi-task learning setups. 
+Microsoft Icecaps is an open-source toolkit for building neural conversational systems. Icecaps provides an array of tools from recent conversation modeling and general NLP literature within a flexible paradigm that enables complex multi-task learning setups.
 
 Icecaps is currently on version 0.2.0. In this version we introduced several functionalities:
-* Personalization embeddings for transformer models
-* Early stopping variant for performing validation across all saved checkpoints
-* Implementations for both SpaceFusion and StyleFusion
-* New text data processing features, including sorting and trait grounding
-* Tree data processing features from JSON files using the new JSONDataProcessor
+
+- Personalization embeddings for transformer models
+- Early stopping variant for performing validation across all saved checkpoints
+- Implementations for both SpaceFusion and StyleFusion
+- New text data processing features, including sorting and trait grounding
+- Tree data processing features from JSON files using the new JSONDataProcessor
 
 <table>
   <tr>
@@ -521,16 +520,18 @@ Icecaps is currently on version 0.2.0. In this version we introduced several fun
 
 **The multitask and transfer learning toolkit for natural language processing research**
 **Why should I use `jiant`?**
+
 - `jiant` supports [multitask learning](https://colab.research.google.com/github/nyu-mll/jiant/blob/master/examples/notebooks/jiant_Multi_Task_Example.ipynb)
 - `jiant` supports [transfer learning](https://colab.research.google.com/github/nyu-mll/jiant/blob/master/examples/notebooks/jiant_STILTs_Example.ipynb)
 - `jiant` supports [50+ natural language understanding tasks](https://github.com/nyu-mll/jiant/blob/master/guides/tasks/supported_tasks.md)
 - `jiant` supports the following benchmarks:
-    - [GLUE](https://github.com/nyu-mll/jiant/blob/master/guides/benchmarks/glue.md)
-    - [SuperGLUE](https://github.com/nyu-mll/jiant/blob/master/guides/benchmarks/superglue.md)
-    - [XTREME](https://github.com/nyu-mll/jiant/blob/master/guides/benchmarks/xtreme.md)
+  - [GLUE](https://github.com/nyu-mll/jiant/blob/master/guides/benchmarks/glue.md)
+  - [SuperGLUE](https://github.com/nyu-mll/jiant/blob/master/guides/benchmarks/superglue.md)
+  - [XTREME](https://github.com/nyu-mll/jiant/blob/master/guides/benchmarks/xtreme.md)
 - `jiant` is a research library and users are encouraged to extend, change, and contribute to match their needs!
 
 **A few additional things you might want to know about `jiant`:**
+
 - `jiant` is configuration file driven
 - `jiant` is built with [PyTorch](https://pytorch.org)
 - `jiant` integrates with [`datasets`](https://github.com/huggingface/datasets) to manage task data
@@ -558,8 +559,7 @@ NeuralCoref is a pipeline extension for spaCy 2.1+ which annotates and resolves 
 For a brief introduction to coreference resolution and NeuralCoref, please refer to our [blog post](https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30).
 NeuralCoref is written in Python/Cython and comes with a pre-trained statistical model for **English only**.
 
-NeuralCoref is accompanied by a visualization client [NeuralCoref-Viz](https://github.com/huggingface/neuralcoref-viz), a web interface  powered by a REST server that can be [tried online](https://huggingface.co/coref/). NeuralCoref is released under the MIT license.
-
+NeuralCoref is accompanied by a visualization client [NeuralCoref-Viz](https://github.com/huggingface/neuralcoref-viz), a web interface powered by a REST server that can be [tried online](https://huggingface.co/coref/). NeuralCoref is released under the MIT license.
 
 <table>
   <tr>
@@ -586,24 +586,23 @@ NLP Architect is an NLP library designed to be flexible, easy to extend, allow f
 
 Features:
 
-* Core NLP models used in many NLP tasks and useful in many NLP applications
-* Novel NLU models showcasing novel topologies and techniques
-* Optimized NLP/NLU models showcasing different optimization algorithms on neural NLP/NLU models
-* Model-oriented design:
-  * Train and run models from command-line.
-  * API for using models for inference in python.
-  * Procedures to define custom processes for training,    inference or anything related to processing.
-  * CLI sub-system for running procedures
-* Based on optimized Deep Learning frameworks:
+- Core NLP models used in many NLP tasks and useful in many NLP applications
+- Novel NLU models showcasing novel topologies and techniques
+- Optimized NLP/NLU models showcasing different optimization algorithms on neural NLP/NLU models
+- Model-oriented design:
+  - Train and run models from command-line.
+  - API for using models for inference in python.
+  - Procedures to define custom processes for training, inference or anything related to processing.
+  - CLI sub-system for running procedures
+- Based on optimized Deep Learning frameworks:
 
-  * [TensorFlow]
-  * [PyTorch]
-  * [Dynet]
+  - [TensorFlow]
+  - [PyTorch]
+  - [Dynet]
 
-* Essential utilities for working with NLP models - Text/String pre-processing, IO, data-manipulation, metrics, embeddings.
+- Essential utilities for working with NLP models - Text/String pre-processing, IO, data-manipulation, metrics, embeddings.
 
 <https://intellabs.github.io/nlp-architect>
-
 
 <table>
   <tr>
@@ -626,7 +625,6 @@ NLTK -- the Natural Language Toolkit -- is a suite of open source Python modules
 
 <https://www.nltk.org>
 
-
 <table>
   <tr>
     <th>language</th>
@@ -643,17 +641,16 @@ NLTK -- the Natural Language Toolkit -- is a suite of open source Python modules
 ---
 
 > > <h2 id="Pattern">11. Pattern</h2>
-Pattern is a web mining module for Python. It has tools for:
+> > Pattern is a web mining module for Python. It has tools for:
+
 - Data Mining: web services (Google, Twitter, Wikipedia), web crawler, HTML DOM parser
 - Natural Language Processing: part-of-speech taggers, n-gram search, sentiment analysis, WordNet
 - Machine Learning: vector space model, clustering, classification (KNN, SVM, Perceptron)
 - Network Analysis: graph centrality and visualization.
-  
+
 It is well documented, thoroughly tested with 350+ unit tests and comes bundled with 50+ examples. The source code is licensed under BSD.
 
 <https://github.com/clips/pattern/wiki>
-
-
 
 <table>
   <tr>
@@ -688,7 +685,6 @@ open-source software, released under the MIT license.
 
 <https://spacy.io/>
 
-
 <table>
   <tr>
     <th>language</th>
@@ -712,7 +708,6 @@ The Stanford CoreNLP code is written in Java and licensed under the GNU General 
 
 <http://stanfordnlp.github.io/CoreNLP/>
 
-
 <table>
   <tr>
     <th>language</th>
@@ -732,11 +727,11 @@ The Stanford CoreNLP code is written in Java and licensed under the GNU General 
 
 Well tested & Multi-language evaluation framework for Text Summarization.
 
-* Well tested
-  * The ROUGE-X scores are tested compare with [original Perl script (ROUGE-1.5.5.pl)](https://github.com/summanlp/evaluation).
-  * The BLEU score is calculated by [SacréBLEU](https://github.com/mjpost/sacrebleu), that produces the same values as official script (`mteval-v13a.pl`) used by WMT.
-* Multi-language
-  * Not only English, Japanese and Chinese are also supported. The other language is extensible [easily](https://github.com/chakki-works/sumeval#welcome-contribution-tada).
+- Well tested
+  - The ROUGE-X scores are tested compare with [original Perl script (ROUGE-1.5.5.pl)](https://github.com/summanlp/evaluation).
+  - The BLEU score is calculated by [SacréBLEU](https://github.com/mjpost/sacrebleu), that produces the same values as official script (`mteval-v13a.pl`) used by WMT.
+- Multi-language
+  - Not only English, Japanese and Chinese are also supported. The other language is extensible [easily](https://github.com/chakki-works/sumeval#welcome-contribution-tada).
 
 Of course, implementation is Pure Python!
 
@@ -757,28 +752,28 @@ Of course, implementation is Pure Python!
 
 > > <h2 id="Texar-PyTorch">15. Texar-PyTorch</h2>
 
-**Texar-PyTorch** is a toolkit aiming to support a broad set of machine learning, especially natural language processing and text generation tasks. Texar provides a library of easy-to-use ML modules and functionalities for composing whatever models and algorithms. The tool is designed for both researchers and practitioners for fast prototyping and experimentation. Texar-PyTorch was originally developed and is 
+**Texar-PyTorch** is a toolkit aiming to support a broad set of machine learning, especially natural language processing and text generation tasks. Texar provides a library of easy-to-use ML modules and functionalities for composing whatever models and algorithms. The tool is designed for both researchers and practitioners for fast prototyping and experimentation. Texar-PyTorch was originally developed and is
 actively contributed by [Petuum](https://petuum.com/) and [CMU](https://www.cmu.edu/) in collaboration with other institutes.
 A mirror of this repository is maintained by [Petuum Open Source](https://github.com/petuum).
 
-Texar-PyTorch integrates many of the best features of TensorFlow into PyTorch, delivering highly usable and customizable modules superior to PyTorch native ones. 
+Texar-PyTorch integrates many of the best features of TensorFlow into PyTorch, delivering highly usable and customizable modules superior to PyTorch native ones.
 
 ### Key Features
-* **Two Versions, (Mostly) Same Interfaces**. Texar-PyTorch (this repo) and **[Texar-TF](https://github.com/asyml/texar)** have mostly the same interfaces. Both further combine the best design of TF and PyTorch:
-  - Interfaces and variable sharing in *PyTorch convention*
-  - Excellent factorization and rich functionalities in *TF convention*.
-* **Versatile** to support broad needs:
-   - data processing, model architectures, loss functions, training and inference algorithms, evaluation, ...
-   - encoder(s) to decoder(s), sequential- and self-attentions, memory, hierarchical models, classifiers, ... 
-   - maximum likelihood learning, reinforcement learning, adversarial learning, probabilistic modeling, ... 
-* **Fully Customizable** at multiple abstraction level -- both novice-friendly and expert-friendly. 
-  - Free to plug in whatever external modules, since Texar is fully compatible with the native PyTorch APIs. 
-* **Modularized** for maximal re-use and clean APIs, based on principled decomposition of *Learning-Inference-Model Architecture*. 
-* **Rich Pre-trained Models, Rich Usage with Uniform Interfaces**. BERT, GPT2, XLNet, etc, for encoding, classification, generation, and composing complex models with other Texar components!
-* Clean, detailed [documentation](https://texar-pytorch.readthedocs.io) and rich [examples](./examples).
+
+- **Two Versions, (Mostly) Same Interfaces**. Texar-PyTorch (this repo) and **[Texar-TF](https://github.com/asyml/texar)** have mostly the same interfaces. Both further combine the best design of TF and PyTorch:
+  - Interfaces and variable sharing in _PyTorch convention_
+  - Excellent factorization and rich functionalities in _TF convention_.
+- **Versatile** to support broad needs:
+  - data processing, model architectures, loss functions, training and inference algorithms, evaluation, ...
+  - encoder(s) to decoder(s), sequential- and self-attentions, memory, hierarchical models, classifiers, ...
+  - maximum likelihood learning, reinforcement learning, adversarial learning, probabilistic modeling, ...
+- **Fully Customizable** at multiple abstraction level -- both novice-friendly and expert-friendly.
+  - Free to plug in whatever external modules, since Texar is fully compatible with the native PyTorch APIs.
+- **Modularized** for maximal re-use and clean APIs, based on principled decomposition of _Learning-Inference-Model Architecture_.
+- **Rich Pre-trained Models, Rich Usage with Uniform Interfaces**. BERT, GPT2, XLNet, etc, for encoding, classification, generation, and composing complex models with other Texar components!
+- Clean, detailed [documentation](https://texar-pytorch.readthedocs.io) and rich [examples](./examples).
 
 <https://asyml.io/>
-
 
 <table>
   <tr>
@@ -800,7 +795,6 @@ Texar-PyTorch integrates many of the best features of TensorFlow into PyTorch, d
 TextBlob is a Python (2 and 3) library for processing textual data. It provides a simple API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, classification, translation, and more.
 
 <https://textblob.readthedocs.io/>
-
 
 <table>
   <tr>
@@ -825,10 +819,9 @@ for layers defined in other frameworks such as **PyTorch, TensorFlow and MXNet**
 can use Thinc as an interface layer, a standalone toolkit or a flexible way to
 develop new models. Previous versions of Thinc have been running quietly in
 production in thousands of companies, via both [spaCy](https://spacy.io) and
-[Prodigy](https://prodi.gy). 
+[Prodigy](https://prodi.gy).
 
 <https://thinc.ai/>
-
 
 <table>
   <tr>
@@ -857,10 +850,8 @@ This repository consists of:
 - [torchtext.models](https://github.com/pytorch/text/tree/main/torchtext/models): Pre-trained models
 - [torchtext.vocab](https://github.com/pytorch/text/tree/main/torchtext/vocab): Vocab and Vectors related classes and factory functions
 - [examples](https://github.com/pytorch/text/tree/main/examples): Example NLP workflows with PyTorch and torchtext library.
-  
 
 <https://pytorch.org/text>
-
 
 <table>
   <tr>
@@ -883,9 +874,9 @@ This repository consists of:
 
 These models can be applied on:
 
-* Text, for tasks like text classification, information extraction, question answering, summarization, translation, text generation, in over 100 languages.
-* Images, for tasks like image classification, object detection, and segmentation.
-* Audio, for tasks like speech recognition and audio classification.
+- Text, for tasks like text classification, information extraction, question answering, summarization, translation, text generation, in over 100 languages.
+- Images, for tasks like image classification, object detection, and segmentation.
+- Audio, for tasks like speech recognition and audio classification.
 
 **Transformer** models can also perform tasks on **several modalities combined**, such as table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.
 
@@ -925,19 +916,13 @@ These models can be applied on:
 <a href="#faceswap">faceswap</a> 
 <a href="#jeelizFaceFilter">jeelizFaceFilter</a> |
 <a href="#OpenCV">OpenCV</a> |
-<a href="#Luminoth">Luminoth</a> 
-
-
-
-
-
+<a href="#Luminoth">Luminoth</a>
 
 </p>
 
 ---
 
 > > <h2 id="libfacedetection">1. libfacedetection</h2>
-
 
 This is an open source library for CNN-based face detection in images. The CNN model has been converted to static variables in C source files. The source code does not depend on any other libraries. What you need is just a C++ compiler. You can compile the source code under Windows, Linux, ARM and any platform with a C++ compiler.
 
@@ -950,7 +935,6 @@ Please note that OpenCV DNN does not support the latest version of YuNet with dy
 examples/detect-image.cpp and examples/detect-camera.cpp show how to use the library.
 
 The library was trained by [libfacedetection.train](https://github.com/ShiqiYu/libfacedetection.train).
-
 
 <table>
   <tr>
@@ -972,7 +956,6 @@ The library was trained by [libfacedetection.train](https://github.com/ShiqiYu/l
 A minimal PyTorch implementation of YOLOv3, with support for training, inference and evaluation.
 
 <https://pjreddie.com/darknet/yolo/>
-
 
 <table>
   <tr>
@@ -1016,16 +999,15 @@ Raster Vision is an open source Python framework for building computer vision mo
 (for free!) is here: [DeOldify Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer)
 
 **Desktop**: Want to run open source DeOldify for photos on Windows desktop?
-ColorfulSoft made such a thing here and it really works-  <https://github.com/ColorfulSoft/DeOldify.NET>.
+ColorfulSoft made such a thing here and it really works- <https://github.com/ColorfulSoft/DeOldify.NET>.
 No GPU required!
 
 The **most advanced** version of DeOldify image colorization is available here,
-exclusively.  Try a few images for free! [MyHeritage In Color](https://www.myheritage.com/incolor)
+exclusively. Try a few images for free! [MyHeritage In Color](https://www.myheritage.com/incolor)
 
 **Huggingface Web Demo**: Integrated to [Huggingface Spaces](https://huggingface.co/spaces)
 with [Gradio](https://github.com/gradio-app/gradio).
 See demo: [Hugging Face Spaces](https://huggingface.co/spaces/PaddlePaddle/deoldify)
-
 
 <table>
   <tr>
@@ -1049,10 +1031,11 @@ SOD is an embedded, modern cross-platform computer vision and machine learning s
 SOD was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in open source as well commercial products.
 
 Designed for computational efficiency and with a strong focus on real-time applications. SOD includes a comprehensive set of both classic and state-of-the-art deep-neural networks with their <a href="https://pixlab.io/downloads">pre-trained models</a>. Built with SOD:
-* <a href="https://sod.pixlab.io/intro.html#cnn">Convolutional Neural Networks (CNN)</a> for multi-class (20 and 80) object detection & classification.
-* <a href="https://sod.pixlab.io/api.html#cnn">Recurrent Neural Networks (RNN)</a> for text generation (i.e. Shakespeare, 4chan, Kant, Python code, etc.).
-* <a href="https://sod.pixlab.io/samples.html">Decision trees</a> for single class, real-time object detection.
-* A brand new architecture written specifically for SOD named <a href="https://sod.pixlab.io/intro.html#realnets">RealNets</a>.
+
+- <a href="https://sod.pixlab.io/intro.html#cnn">Convolutional Neural Networks (CNN)</a> for multi-class (20 and 80) object detection & classification.
+- <a href="https://sod.pixlab.io/api.html#cnn">Recurrent Neural Networks (RNN)</a> for text generation (i.e. Shakespeare, 4chan, Kant, Python code, etc.).
+- <a href="https://sod.pixlab.io/samples.html">Decision trees</a> for single class, real-time object detection.
+- A brand new architecture written specifically for SOD named <a href="https://sod.pixlab.io/intro.html#realnets">RealNets</a>.
 
 <https://sod.pixlab.io/>
 
@@ -1097,8 +1080,8 @@ is a free-to-use online tool for labeling photos. Thanks to the use of a browser
 
 DeepPrivacy is a fully automatic anonymization technique for images.
 
-This repository contains the source code for the paper [*"DeepPrivacy: A Generative Adversarial Network for Face Anonymization"*](https://arxiv.org/abs/1909.04538) published at ISVC 2019, and  [*"Image Inpainting with Learnable Feature Imputation
-"*](https://arxiv.org/abs/2011.01077) published at GCPR 2020.
+This repository contains the source code for the paper [_"DeepPrivacy: A Generative Adversarial Network for Face Anonymization"_](https://arxiv.org/abs/1909.04538) published at ISVC 2019, and [_"Image Inpainting with Learnable Feature Imputation
+"_](https://arxiv.org/abs/2011.01077) published at GCPR 2020.
 
 [[**Interactive Demo**]](https://huggingface.co/spaces/haakohu/DeepPrivacy)
 
@@ -1206,14 +1189,13 @@ This library is lightweight and it does not include any 3D engine or third party
 
 Open Source Computer Vision Library
 
-* Homepage: <https://opencv.org>
-  * Courses: <https://opencv.org/courses>
-* Docs: <https://docs.opencv.org/4.x/>
-* Q&A forum: <https://forum.opencv.org>
-  * previous forum (read only): <http://answers.opencv.org>
-* Issue tracking: <https://github.com/opencv/opencv/issues>
-* Additional OpenCV functionality: <https://github.com/opencv/opencv_contrib> 
-
+- Homepage: <https://opencv.org>
+  - Courses: <https://opencv.org/courses>
+- Docs: <https://docs.opencv.org/4.x/>
+- Q&A forum: <https://forum.opencv.org>
+  - previous forum (read only): <http://answers.opencv.org>
+- Issue tracking: <https://github.com/opencv/opencv/issues>
+- Additional OpenCV functionality: <https://github.com/opencv/opencv_contrib>
 
 <table>
   <tr>
@@ -1251,6 +1233,151 @@ Luminoth is an open source toolkit for **computer vision**. Currently, we suppor
 
 ---
 
+<h2 align="center" id="">ML hosting</h2>
+
+<p align="center">
+<a href="#BentoML">BentoML</a> |
+<a href="#Streamlit">Streamlit</a> |
+<a href="#Acumos">Acumos</a> |
+<a href="#Ray">Ray</a> |
+<a href="#Turi">Turi</a> 
+
+
+
+
+</p>
+
+---
+
+> > <h2 id="BentoML">1. BentoML</h2>
+
+BentoML makes it easy to create Machine Learning services that are ready to deploy and scale.
+
+- [Documentation](https://docs.bentoml.org/) - Overview of the BentoML docs and related resources
+- [Tutorial: Intro to BentoML](https://docs.bentoml.org/en/latest/tutorial.html) - Learn by doing! In under 10 minutes, you'll serve a model via REST API and generate a docker image for deployment.
+- [Main Concepts](https://docs.bentoml.org/en/latest/concepts/index.html) - A step-by-step tour for learning main concepts in BentoML
+- [Examples](https://github.com/bentoml/BentoML/tree/main/examples) - Gallery of sample projects using BentoML
+- [ML Framework Guides](https://docs.bentoml.org/en/latest/frameworks/index.html) - Best practices and example usages by the ML framework of your choice
+- [Advanced Guides](https://docs.bentoml.org/en/latest/guides/index.html) - Learn about BentoML's internals, architecture and advanced features
+- Need help? [Join BentoML Community Slack 💬](https://l.linklyhq.com/l/ktOh)
+
+<https://bentoml.com>
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>python</th>
+    <th><a href="https://github.com/bentoml/BentoML">Github</a></th>
+    <th>Apache-2.0 license</th>
+  </tr>
+  <table>
+
+---
+
+> > <h2 id="Streamlit">2. Streamlit</h2>
+
+**The fastest way to build and share data apps.**
+
+Streamlit lets you turn data scripts into shareable web apps in minutes, not weeks. It’s all Python, open-source, and free! And once you’ve created an app you can use our [Community Cloud platform](https://streamlit.io/cloud)
+ to deploy, manage, and share your app!
+
+<https://streamlit.io/>
+
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>python, javascript, typescript</th>
+    <th><a href="https://github.com/streamlit/streamlit">Github</a></th>
+    <th>Apache-2.0 license</th>
+  </tr>
+  <table>
+
+---
+
+> > <h2 id="Acumos">3. Acumos</h2>
+
+Acumos is a platform and an open source framework that makes it easy to build, share, and deploy AI apps. It is an LF AI Graduate project.
+
+<https://www.acumos.org/>
+
+<table>
+  <tr>
+    <th>source</th>
+    <th>type</th>
+  </tr>
+   <tr>
+    <th><a href="https://github.com/acumos">Github</a></th>
+    <th>organization</th>
+  </tr>
+  <table>
+
+---
+
+> > <h2 id="Ray">4. Ray</h2>
+
+Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a toolkit of libraries (Ray AIR) for accelerating ML workloads.
+
+<https://ray.io/>
+
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>python, cpp, java etc..</th>
+    <th><a href="https://github.com/ray-project/ray">Github</a></th>
+    <th>Apache-2.0 license</th>
+  </tr>
+  <table>
+
+---
+
+> > <h2 id="Turi">5. Turi</h2>
+
+Turi Create simplifies the development of custom machine learning models. You
+don't have to be a machine learning expert to add recommendations, object
+detection, image classification, image similarity or activity classification to
+your app.
+
+* **Easy-to-use:** Focus on tasks instead of algorithms
+* **Visual:** Built-in, streaming visualizations to explore your data
+* **Flexible:** Supports text, images, audio, video and sensor data
+* **Fast and Scalable:** Work with large datasets on a single machine
+* **Ready To Deploy:** Export models to Core ML for use in iOS, macOS, watchOS, and tvOS apps
+
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>cpp, python, javascript, ect..</th>
+    <th><a href="https://github.com/apple/turicreate">Github</a></th>
+    <th>BSD-3-Clause license</th>
+  </tr>
+  <table>
+
+---
+
+
+
+
+
+
 
 
 
@@ -1260,8 +1387,8 @@ Luminoth is an open source toolkit for **computer vision**. Currently, we suppor
 <h2 align="center" id="contributing">Contributing</h2>
 
 ```py
-Pull requests are welcome! 
-for major changes, please open an issue first to 
+Pull requests are welcome!
+for major changes, please open an issue first to
 discuss what you would like to change.
 please make sure to update tests as appropriate.
 ```
@@ -1301,12 +1428,12 @@ SOFTWARE.
 
 ```
 
-[Lincese](https://github.com/cx0y/open-machine-learning/blob/main/license)
+[Lincese](./license.md)
 
 ---
+
 <table>
   <tr>
     <th><a href="#OML">[ ↑ ]</a></th>
   </tr>
   <table>
-
