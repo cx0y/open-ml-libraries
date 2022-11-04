@@ -1233,7 +1233,98 @@ Luminoth is an open source toolkit for **computer vision**. Currently, we suppor
 
 ---
 
-<h2 align="center" id="">ML hosting</h2>
+<h2 align="center" id="mlt">ML Tools</h2>
+
+<p align="center">
+<a href="#AIX360">AIX360</a> |  
+<a href="#Apollo">Apollo</a> |  
+<a href="#DVC">DVC</a> |  
+
+
+
+</p>
+
+---
+
+> > <h2 id="AIX360">1. AI Explainability 360</h2>
+
+The AI Explainability 360 toolkit is an open-source library that supports interpretability and explainability of datasets and machine learning models. The AI Explainability 360 Python package includes a comprehensive set of algorithms that cover different dimensions of explanations along with proxy explainability metrics.           
+
+The [AI Explainability 360 interactive experience](http://aix360.mybluemix.net/data) provides a gentle introduction to the concepts and capabilities by walking through an example use case for different consumer personas. The [tutorials and example notebooks](https://github.com/Trusted-AI/AIX360/blob/master/examples) offer a deeper, data scientist-oriented introduction. The complete API is also available. 
+
+<http://aix360.mybluemix.net/>
+
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>python</th>
+    <th><a href="https://github.com/Trusted-AI/AIX360">Github</a></th>
+    <th>Apache-2.0 license</th>
+  </tr>
+  <table>
+
+---
+
+> > <h2 id="Apollo">2. Apollo</h2>
+
+A high performance and flexible architecture which accelerates the development, testing, and deployment of
+Autonomous Vehicles.
+
+<http://apollo.auto/>
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>cpp, python, etc..</th>
+    <th><a href="https://github.com/ApolloAuto/apollo">Github</a></th>
+    <th> Apache-2.0 license</th>
+  </tr>
+  <table>
+
+---
+
+> > <h2 id="DVC">3. Data Version Control (DVC)</h2>
+
+**Data Version Control** or **DVC** is a command line tool and **VS Code Extension** to help you develop reproducible machine learning projects:
+
+- **Version** your data and models. Store them in your cloud storage but keep their version info in your Git repo.
+- **Iterate** fast with lightweight pipelines. When you make changes, only run the steps impacted by those changes.
+- **Track** experiments in your local Git repo (no servers needed).
+- **Compare** any data, code, parameters, model, or performance plots.
+- **Share** experiments and automatically reproduce anyone's experiment.
+
+<https://dvc.org/>
+
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>python</th>
+    <th><a href="https://github.com/iterative/dvc">Github</a></th>
+    <th>Apache-2.0 license</th>
+  </tr>
+  <table>
+
+---
+
+
+
+---
+
+<h2 align="center" id="mlh">ML hosting</h2>
 
 <p align="center">
 <a href="#BentoML">BentoML</a> |
