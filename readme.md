@@ -2,7 +2,7 @@
 
 <p align = "center"><img src="01.png" height="250px" id="OML"></p>
 
-<h1 align="center"  >Open Machine Learning</h1>
+<h1 align="center" id="oml">Open Machine Learning</h1>
 <p align="center"> 
 <a href="#ml-frem">ML Frameworks</a> | 
 <a href="#npl-frem">NLP Frameworks</a> | 
@@ -31,7 +31,10 @@
 <a href="#Blocks">Blocks</a> |
 <a href="#Caffe">Caffe</a> |
 <a href="#ConvNetJS">ConvNetJS</a> |
-<a href="#DatumBox">DatumBox</a>
+<a href="#DatumBox">DatumBox</a> |
+<a href="#deepdetect">deepdetect</a> |
+<a href="#DL4J">DL4J</a> |
+<a href="#detectron2">detectron2</a>
 
 </p>
 
@@ -338,11 +341,99 @@ The Framework currently supports performing multiple Parametric & non-parametric
     <th>MIT license</th>
   </tr>
  <table>
+
+> > <h2 id="deepdetect">12. deepdetect</h2>
+> 
+DeepDetect (https://www.deepdetect.com/) is a machine learning API and server written in C++11. It makes state of the art machine learning easy to work with and integrate into existing applications. It has support for both training and inference, with automatic conversion to embedded platforms with TensorRT (NVidia GPU) and NCNN (ARM CPU).
+
+It implements support for supervised and unsupervised deep learning of images, text, time series and other data, with focus on simplicity and ease of use, test and connection into existing applications. It supports classification, object detection, segmentation, regression, autoencoders, ...
+
+And it relies on external machine learning libraries through a very generic and flexible API. At the moment it has support for:
+
+- the deep learning libraries [Caffe](https://github.com/BVLC/caffe), [Tensorflow](https://tensorflow.org), [Caffe2](https://caffe2.ai/), [Torch](https://pytorch.org/), [NCNN](https://github.com/Tencent/ncnn) [Tensorrt](https://github.com/NVIDIA/TensorRT) and [Dlib](http://dlib.net/ml.html)
+- distributed gradient boosting library [XGBoost](https://github.com/dmlc/xgboost)
+- clustering with [T-SNE](https://github.com/DmitryUlyanov/Multicore-TSNE)
+- similarity search with [Annoy](https://github.com/spotify/annoy/) and [FAISS](https://github.com/facebookresearch/faiss)
+
+Please join the community on [Gitter](https://gitter.im/beniz/deepdetect), where we help users get through with installation, API, neural nets and connection to external applications.
+
+<https://www.deepdetect.com/>
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>cpp</th>
+    <th><a href="https://github.com/jolibrain/deepdetect">Github</a></th>
+    <th><a href="https://github.com/jolibrain/deepdetect/blob/master/COPYING">License</th>
+  </tr>
+  <table>
+
+---
+
+> > <h2 id="DL4J">13. DL4J</h2>
+
+The **[Eclipse Deeplearning4J](https://deeplearning4j.konduit.ai/)** (DL4J) ecosystem is a set of projects intended to support all the needs of a JVM based deep learning application. This means starting with the raw data, loading and preprocessing it from wherever and whatever format it is in to building and tuning a wide variety of simple and complex deep learning networks. 
+
+Because Deeplearning4J runs on the JVM you can use it with a wide variety of JVM based languages other than Java, like Scala, Kotlin, Clojure and many more. 
+
+The DL4J stack comprises of:
+- **DL4J**: High level API to build MultiLayerNetworks and ComputationGraphs with a variety of layers, including custom ones. Supports importing Keras models from h5, including tf.keras models (as of 1.0.0-beta7) and also supports distributed training on Apache Spark
+- **ND4J**: General purpose linear algebra library with over 500 mathematical, linear algebra and deep learning operations. ND4J is based on the highly-optimized C++ codebase LibND4J that provides CPU (AVX2/512) and GPU (CUDA) support and acceleration by libraries such as OpenBLAS, OneDNN (MKL-DNN), cuDNN, cuBLAS, etc
+- **SameDiff** : Part of the ND4J library, SameDiff is our automatic differentiation / deep learning framework. SameDiff uses a graph-based (define then run) approach, similar to TensorFlow graph mode. Eager graph (TensorFlow 2.x eager/PyTorch) graph execution is planned. SameDiff supports importing TensorFlow frozen model format .pb (protobuf) models. Import for ONNX, TensorFlow SavedModel and Keras models are planned. Deeplearning4j also has full SameDiff support for easily writing custom layers and loss functions.
+- **DataVec**: ETL for machine learning data in a wide variety of formats and files (HDFS, Spark, Images, Video, Audio, CSV, Excel etc)
+- **LibND4J** : C++ library that underpins everything. For more information on how the JVM acceses native arrays and operations refer to [JavaCPP](https://github.com/bytedeco/javacpp)
+- **Python4J**: Bundled cpython execution for the JVM
+
+All projects in the DL4J ecosystem support Windows, Linux and macOS. Hardware support includes CUDA GPUs (10.0, 10.1, 10.2 except OSX), x86 CPU (x86_64, avx2, avx512), ARM CPU (arm, arm64, armhf) and PowerPC (ppc64le).
+
+<http://deeplearning4j.konduit.ai/>
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>java, cpp</th>
+    <th><a href="https://github.com/deeplearning4j/deeplearning4j">Github</a></th>
+    <th>Apache-2.0 license</th>
+  </tr>
+  <table>
+
+---
+
+> > <h2 id="detectron2">14. detectron2</h2>
+
+Detectron2 is Facebook AI Research's next generation library that provides state-of-the-art detection and segmentation algorithms. It is the successor of [Detectron](https://github.com/facebookresearch/Detectron/) and [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark/). It supports a number of computer vision research projects and production applications in Facebook.
+
+<https://detectron2.readthedocs.io/en/latest/>
+
+
+<table>
+  <tr>
+    <th>language</th>
+    <th>source</th>
+    <th>license</th>
+  </tr>
+   <tr>
+    <th>python</th>
+    <th><a href="https://github.com/facebookresearch/detectron2">Github</a></th>
+    <th>Apache-2.0 license</th>
+  </tr>
+  <table>
+
+---
  
+
  
 ---
 
-<h2 align="center" id="npl-frem">NLP Frameworks</h2>
+<h2 align="center" id="npl-frem">NLP Frameworks <a href="#oml">[ ↑ ]</a></h2>
 <p align="center"> 
 <a href="#AllenNLP">AllenNLP</a>  |  
 <a href="#Apache-OpenNLP">Apache OpenNLP</a> | 
@@ -901,7 +992,7 @@ These models can be applied on:
 
 ---
 
-<h2 align="center" id="cvl">Computer Vision Libraries</h2>
+<h2 align="center" id="cvl">Computer Vision Libraries <a href="#oml">[ ↑ ]</a></h2>
 
 <p align="center">
 <a href="#libfacedetection">libfacedetection</a> |  
@@ -1233,7 +1324,7 @@ Luminoth is an open source toolkit for **computer vision**. Currently, we suppor
 
 ---
 
-<h2 align="center" id="mlt">ML Tools</h2>
+<h2 align="center" id="mlt">ML Tools <a href="#oml">[ ↑ ]</a></h2>
 
 <p align="center">
 <a href="#AIX360">AIX360</a> |  
@@ -1324,7 +1415,7 @@ Autonomous Vehicles.
 
 ---
 
-<h2 align="center" id="mlh">ML hosting</h2>
+<h2 align="center" id="mlh">ML hosting <a href="#oml">[ ↑ ]</a></h2>
 
 <p align="center">
 <a href="#BentoML">BentoML</a> |
@@ -1475,7 +1566,7 @@ your app.
 
 ---
 
-<h2 align="center" id="contributing">Contributing</h2>
+<h2 align="center" id="contributing">Contributing <a href="#oml">[ ↑ ]</a></h2>
 
 ```py
 Pull requests are welcome!
@@ -1491,7 +1582,7 @@ please make sure to update tests as appropriate.
   </tr>
   <table>
 
-<h2 align="center" id="license">License</h2>
+<h2 align="center" id="license">License <a href="#oml">[ ↑ ]</a></h2>
 
 ```py
 MIT License
