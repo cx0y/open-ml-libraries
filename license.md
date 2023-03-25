@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 wiz
+Copyright (c) 2022 rs (cx0y)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

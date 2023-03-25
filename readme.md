@@ -1,7 +1,5 @@
-⚠️ Developing
-
-<p align = "center"><img src="01.png" height="250px" id="OML"></p>
-
+<p align = "center"><img src="https://thumbs.dreamstime.com/b/machine-learning-web-banner-vector-icons-editable-strokes-artificial-intelligence-neural-network-big-data-internet-things-194076506.jpg" height="250px" id="OML"></p>
+<br>
 <h1 align="center" id="oml">Open Machine Learning</h1>
 <p align="center"> 
 <a href="#ml-frem">ML Frameworks</a> | 
@@ -1587,7 +1585,7 @@ please make sure to update tests as appropriate.
 ```py
 MIT License
 
-Copyright (c) 2022 wiz
+Copyright (c) 2022 rs (cx0y)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
