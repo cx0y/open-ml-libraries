@@ -1,4 +1,6 @@
+<!--
 <p align = "center"><img src="https://thumbs.dreamstime.com/b/machine-learning-web-banner-vector-icons-editable-strokes-artificial-intelligence-neural-network-big-data-internet-things-194076506.jpg" height="250px" id="OML"></p>
+-->
 <br>
 <h1 align="center" id="oml">Open Machine Learning</h1>
 <p align="center"> 
