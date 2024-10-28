@@ -8,14 +8,7 @@
 <a href="#npl-frem">NLP Frameworks</a> | 
 <a href="#cvl">Computer Vision Libraries</a> | 
 <a href="#mlt">ML Tools</a> | 
-<a href="#mlh">ML Hosting</a> | 
-<a href="#res">Resources</a> 
-</p>
-
-<p align="center"> 
-<a href="#contributing">Contributing</a> | 
-<a href="#license">License</a> | 
-<a href="">Raw</a> 
+<a href="#mlh">ML Hosting</a> 
 </p>
 
 <h2 align="center" id="ml-frem">ML Frameworks</h2>
@@ -1554,68 +1547,3 @@ your app.
   <table>
 
 ---
-
-
-
-
-
-
-
-
-
-
----
-
-<h2 align="center" id="contributing">Contributing <a href="#oml">[ ↑ ]</a></h2>
-
-```py
-Pull requests are welcome!
-for major changes, please open an issue first to
-discuss what you would like to change.
-please make sure to update tests as appropriate.
-```
-
-<table>
-  <tr>
-    <th><a href="./code_of_conduct.md">Code of Conduct</a></th>
-    <th><a href="./contributing.md">Contributing</a></th>
-  </tr>
-  <table>
-
-<h2 align="center" id="license">License <a href="#oml">[ ↑ ]</a></h2>
-
-```py
-MIT License
-
-Copyright (c) 2022 rs (cx0y)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-```
-
-[Lincese](./license.md)
-
----
-
-<table>
-  <tr>
-    <th><a href="#OML">[ ↑ ]</a></th>
-  </tr>
-  <table>
